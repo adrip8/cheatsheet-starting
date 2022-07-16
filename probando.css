@@ -1,0 +1,41 @@
+:root{
+    --main-background: rgb(119, 168, 168);
+    --line-box: rgb(146, 212, 212);
+    --text-background: rgb(175, 227, 227);
+
+}
+
+*{
+    background-color: var(--main-background);
+    
+    
+}
+
+body {
+    text-align: center;
+
+}
+
+table{   
+    margin: auto;  
+    text-align: justify; 
+    border-spacing: 2px;
+
+    
+}
+
+table, th, td{
+    border: 2px solid var(--line-box);
+}
+
+span{
+    background-color: beige;
+}
+
+th, h3{
+    background-color: var(--text-background);
+}
+
+td{
+    
+}
